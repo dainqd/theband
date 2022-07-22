@@ -1,0 +1,86 @@
+/* pc */
+@media(min-width:1024px) {
+    .pc{
+        
+    }
+}
+/* tablet */
+@media(min-width:740px) and (max-width:1024px){
+    .tablet{
+        
+    }  
+}
+/* mobile */
+@media(max-width:740px) {
+        .s-mt-8{
+            margin-top: 8px !important;
+        }
+        .s-full-width,
+        .s-col-full{
+            width: 100% !important;
+        }
+        #header{
+            overflow: hidden;
+        }
+        #supHeader{
+            display: block;
+        }
+        #supHeader > li{
+            display:block;
+        }
+        #supHeader > li:first-child{
+            display: inline-block;
+        }
+        #supHeader .more{
+            position: initial;    
+            background-color: #333;
+        }
+        #supHeader .more a{
+            color: #fff;
+        }
+        #header .search{
+            display: none;
+        }
+        #header .mobile-menu{
+            display: block;
+        }
+        .content .member-list .mobile-col-full{
+            margin-top: 30px;
+            width: 100%;
+        }
+        .content .member-name{
+            margin-bottom: 8px;
+        }
+        .content .member-item{
+            margin-top: 30px;
+            width: 100%;
+        }
+        .content .member-image{
+            width: 60%;
+        }
+        .place-item{
+            width: 100%;
+        }
+        #contact .contact-form{
+            margin-top: 16px;
+        }
+    }
+/* tablet & mobile */
+@media(max-width:1023px){
+    .js-place-buy{
+        padding: 15px 16px;
+    }
+    #contact .contact-form .form-control{
+        padding: 15px;
+    }
+    #footer .social-mangxahoi{
+        font-size: 48px;
+    }
+    #footer .social-mangxahoi a{
+        margin-left: 4px;
+    }
+    #footer .copy-right a{
+        padding: 12px;
+        display: inline-block;
+    }
+}
